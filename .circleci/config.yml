@@ -17,4 +17,4 @@ jobs:
       - run:
           name: "xeniya"
           command: |
-            echo $MY_ENV_VAR # this env var must be set within the project
+            echo "text to output here" > output.txt.
